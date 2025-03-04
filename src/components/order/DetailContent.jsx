@@ -6,13 +6,13 @@ import {
   TbCircleNumber4Filled,
   TbCircleNumber5Filled,
 } from "react-icons/tb";
-import { dataPayment, diamondPass } from "../services";
+import { dataPayment, diamondPass } from "../../services/index";
 import {
   IoIosArrowDown,
   IoIosArrowUp,
   IoMdInformationCircle,
 } from "react-icons/io";
-import Modal from "./Modal";
+import Modal from "../Modal";
 
 const DetailContent = () => {
   const [show, setShow] = useState(null);

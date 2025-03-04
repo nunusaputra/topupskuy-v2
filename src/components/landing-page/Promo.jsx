@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { dataList } from "../services";
+import { dataList } from "../../services";
 import Marquee from "react-fast-marquee";
 import { RiDiscountPercentFill } from "react-icons/ri";
-import TrueFocus from "./animation/true-focus/TrueFocus";
+import TrueFocus from "../animation/true-focus/TrueFocus";
 
 const Promo = () => {
   const calculateTime = () => {

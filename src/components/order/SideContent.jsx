@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { dataList } from "../services";
+import { dataList } from "../../services/index";
 import { ImHeadphones } from "react-icons/im";
 import { IoMdInformationCircle } from "react-icons/io";
 import { FiShoppingBag } from "react-icons/fi";
-import Modal from "./Modal";
+import Modal from "../Modal";
 
 const SideContent = () => {
   const { id } = useParams();

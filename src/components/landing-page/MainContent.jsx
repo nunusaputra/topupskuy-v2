@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { dataList } from "../services";
-import ShinyText from "./animation/shiny-text/ShinyText";
+import { dataList } from "../../services";
+import ShinyText from "../animation/shiny-text/ShinyText";
 
 const MainContent = () => {
   // const [data, setData] = useState(dataList);

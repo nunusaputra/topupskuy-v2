@@ -1,6 +1,6 @@
 import React from "react";
-import pattern from "../assets/images/pattern.png";
-import { dataList } from "../services";
+import pattern from "../../assets/images/pattern.png";
+import { dataList } from "../../services";
 
 const Popular = () => {
   return (

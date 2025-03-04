@@ -1,6 +1,6 @@
 import React from "react";
-import SideContent from "../components/SideContent";
-import DetailContent from "../components/DetailContent";
+import SideContent from "../components/order/SideContent";
+import DetailContent from "../components/order/DetailContent";
 import cover from "../assets/images/cover.jpg";
 import coverBottom from "../assets/images/cover-bottom.png";
 import { dataList } from "../services";
